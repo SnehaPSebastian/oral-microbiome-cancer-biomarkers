@@ -1,0 +1,48 @@
+# R junk
+.Rhistory
+
+# Raw & processed data
+data/
+*.biom
+*.tsv
+
+# QIIME2 exports
+exported-*/
+core-metrics-results/
+
+# OS files
+desktop.ini
+.DS_Store
+Thumbs.db
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# QIIME2 files
+*.qza
+*.qzv
+core-metrics-results/
+
+# Conda & environments
+conda/
+.qiime2/
+.qiime2-env/
+qiime2-amplicon-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+
+# OS junk
+desktop.ini
+.DS_Store
+Thumbs.db
+*.qza
+*.qzv
+*.qza
+*.qzv
