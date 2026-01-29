@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository documents the **Linux, Git, and microbiome bioinformatics skills** acquired as part of an MSc-level bioinformatics assignment. The work focuses on understanding and implementing a **QIIME 1–style amplicon sequencing analysis workflow**, using modern QIIME2 tools while retaining the original conceptual logic of QIIME 1.
+This repository documents the **Linux, Git, and microbiome bioinformatics skills** acquired as part of Mini project. The work focuses on understanding and implementing a **QIIME 2–style amplicon sequencing analysis workflow**, using modern QIIME2 tools while retaining the original conceptual logic of QIIME 1.
 
 **Important note**: This repository contains **only scripts, commands, and documentation**. Large biological datasets and QIIME-generated artifacts are intentionally excluded via `.gitignore` to follow best practices in reproducible computational biology.
 
