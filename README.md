@@ -167,14 +167,14 @@ These files are excluded to:
 
 ---
 
-## Repository Structure
-
-```text
-oral-microbiome-cancer-biomarkers/
-├── README.md
-├── scripts/          # analysis scripts
-├── .gitignore        # excludes large data files
-```
+## 📂 Repository Structure
+- **data/** → Raw FASTQ files, metadata, and processed tables
+- **workflows/** → Bioinformatics pipelines (QIIME2, DADA2, R scripts)
+- **models/** → Machine learning scripts for biomarker prediction
+- **notebooks/** → Jupyter/Colab notebooks for exploratory analysis
+- **results/** → Figures, plots, and summary outputs
+- **docs/** → Documentation and workflow notes
+- **scripts/** → Helper scripts for preprocessing and utilities
 
 ---
 
@@ -189,9 +189,8 @@ oral-microbiome-cancer-biomarkers/
 
 ## Contributors
 
-* **Sneha P Sebastian**
 * **Aisha Hassan Blahayil**
-
+* **Sneha P Sebastian**
 ---
 
 ## Assignment Reflection
