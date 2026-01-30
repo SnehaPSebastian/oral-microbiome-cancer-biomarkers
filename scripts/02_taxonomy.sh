@@ -12,8 +12,10 @@ TABLE="results/table.qza"
 REP_SEQS="results/rep-seqs.qza"
 METADATA="data/metadata.tsv"
 
+# Reference classifier
 CLASSIFIER="reference/silva-138-99-nb-classifier.qza"
 
+# Output folder
 TAX_DIR="results/taxonomy"
 mkdir -p "$TAX_DIR"
 
@@ -49,3 +51,4 @@ qiime taxa barplot \
   --o-visualization "$TAXA_BAR"
 
 echo ">>> Step 02 complete: Taxonomy assigned!"
+
