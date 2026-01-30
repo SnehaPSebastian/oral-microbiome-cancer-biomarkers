@@ -54,8 +54,8 @@ qiime cutadapt trim-paired \
 echo ">>> Running DADA2 denoise-paired..."
 qiime dada2 denoise-paired \
   --i-demultiplexed-seqs "$TRIMMED" \
-  --p-trunc-len-f 270 \
-  --p-trunc-len-r 260 \
+  --p-trunc-len-f 250 \
+  --p-trunc-len-r 225 \
   --o-table "$TABLE" \
   --o-representative-sequences "$REP_SEQS" \
   --o-denoising-stats "$STATS"
