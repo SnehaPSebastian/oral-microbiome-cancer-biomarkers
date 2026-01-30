@@ -1,0 +1,39 @@
+name: oral-microbiome-env
+channels:
+  - qiime2/label/r2025.7
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core
+  - python=3.9
+  - pip
+
+  # QIIME2 (2025.7 release with plugins)
+  - qiime2
+  - q2-dada2
+  - q2-feature-table
+  - q2-diversity
+  - q2-taxa
+
+  # R for diversity analysis
+  - r-base=4.3
+  - r-tidyverse
+  - r-vegan
+  - r-ggplot2
+
+  # ML + data science
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+
+  # Optional: biom-format for table conversions
+  - biom-format
+
+  # Pip extras
+  - pip:
+      - jupyter
+      - ipython
+
