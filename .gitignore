@@ -54,3 +54,8 @@ biomarker_project/
 Phyla_taxa/
 *.pdf
 Phyla_taxa/
+
+# Inside .gitignore
+*.tsv
+!taxonomy.tsv
+!genus-table.tsv
