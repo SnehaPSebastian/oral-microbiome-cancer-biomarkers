@@ -1,7 +1,3 @@
-Absolutely — here’s the **fully formatted README.md file** ready for you to copy‑paste directly into your repo.  
-
----
-
 ```markdown
 # Exploring the Oral Microbiome for Biomarker Discovery
 
