@@ -127,7 +127,3 @@ For questions or collaborations, feel free to open an issue or reach out via Git
 ```
 
 ---
-
-👉 You can copy this entire block into a file named `README.md` in your repo root.  
-
-Would you like me to also prepare a **sample `metadata.tsv` file** (with a few example rows) so reviewers can immediately test your pipeline without needing to create their own metadata?
